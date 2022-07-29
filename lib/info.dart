@@ -7,14 +7,14 @@ const info = [
         'https://upload.wikimedia.org/wikipedia/commons/8/85/Elon_Musk_Royal_Society_%28crop1%29.jpg',
   },
   {
-    'name': 'John Doe',
+    'name': 'Nico Robin',
     'message': 'Hello, whats up',
     'time': '2:25 pm',
     'profilePic':
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTTlz8Y2fjqq-ZCE-rYpgeYWLzO5batfMppA&usqp=CAU",
   },
   {
-    'name': 'Naman Ranawat',
+    'name': 'Nico Robin 2',
     'message': 'Hello, I want to sleep.',
     'time': '1:03 pm',
     'profilePic':

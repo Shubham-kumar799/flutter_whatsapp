@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:rivaan_whatsapp/widgets/chat_list.dart';
 import 'package:rivaan_whatsapp/widgets/contacts_list.dart';
+import 'package:rivaan_whatsapp/widgets/web_message_input_bar.dart';
+import 'package:rivaan_whatsapp/widgets/web_chat_appbar.dart';
 import 'package:rivaan_whatsapp/widgets/web_profile_bar.dart';
+import 'package:rivaan_whatsapp/widgets/web_search_%20bar.dart';
 
 class WebScreenLayout extends StatelessWidget {
   const WebScreenLayout({Key? key}) : super(key: key);
@@ -14,10 +18,9 @@ class WebScreenLayout extends StatelessWidget {
           Expanded(
             child: SingleChildScrollView(
               child: Column(
-                children: [
+                children: const [
                   WebProfileBar(),
-                  //web profile bar
-                  // web search bar
+                  WebSearchBar(),
                   ContactsList(),
                 ],
               ),
@@ -31,6 +34,15 @@ class WebScreenLayout extends StatelessWidget {
                 image: AssetImage('backgroundImage.png'),
                 fit: BoxFit.cover,
               ),
+            ),
+            child: Column(
+              children: const [
+                WebChatAppBar(),
+                Expanded(
+                  child: ChatList(),
+                ),
+                WebMessageInputBar(),
+              ],
             ),
           )
         ],
