@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "394353534306",
+    "project_id": "shubhamdemy-native",
+    "storage_bucket": "shubhamdemy-native.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394353534306:android:ee35605dc034b1a627f83b",
+        "android_client_info": {
+          "package_name": "com.example.rivaan_insta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394353534306-trl827jh4grugppa464eovhostt4cheq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6J93taZDkJ2XQkKrF5ftKje13MiPYHHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394353534306-trl827jh4grugppa464eovhostt4cheq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "394353534306-bhbc8jnsvfevkj3s3gs4rugojd3dckeq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.maxChat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394353534306:android:c6d86ca609c9e04327f83b",
+        "android_client_info": {
+          "package_name": "com.example.rivaan_whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394353534306-trl827jh4grugppa464eovhostt4cheq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6J93taZDkJ2XQkKrF5ftKje13MiPYHHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394353534306-trl827jh4grugppa464eovhostt4cheq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "394353534306-bhbc8jnsvfevkj3s3gs4rugojd3dckeq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.maxChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

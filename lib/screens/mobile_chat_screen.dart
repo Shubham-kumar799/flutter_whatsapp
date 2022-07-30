@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:rivaan_whatsapp/colors.dart';
 import 'package:rivaan_whatsapp/info.dart';
 import 'package:rivaan_whatsapp/widgets/chat_list.dart';
+import 'package:rivaan_whatsapp/widgets/mobile_message_input_bar.dart';
 
 class MobileChatScreen extends StatelessWidget {
   const MobileChatScreen({Key? key}) : super(key: key);
@@ -41,6 +42,7 @@ class MobileChatScreen extends StatelessWidget {
           Expanded(
             child: ChatList(),
           ),
+          MobileMessageInputBar(),
         ],
       ),
     );

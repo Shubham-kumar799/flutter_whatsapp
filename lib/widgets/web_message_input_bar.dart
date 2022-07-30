@@ -7,8 +7,8 @@ class WebMessageInputBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.07,
-      padding: const EdgeInsets.all(10),
+      height: MediaQuery.of(context).size.height * 0.08,
+      padding: const EdgeInsets.all(8),
       decoration: const BoxDecoration(
         border: Border(
           bottom: BorderSide(
@@ -42,9 +42,7 @@ class WebMessageInputBar extends StatelessWidget {
                       style: BorderStyle.none,
                     ),
                   ),
-                  contentPadding: const EdgeInsets.only(
-                    left: 20,
-                  ),
+                  contentPadding: const EdgeInsets.all(10),
                 ),
               ),
             ),
