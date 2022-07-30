@@ -4,7 +4,7 @@ import 'package:rivaan_whatsapp/widgets/contacts_list.dart';
 import 'package:rivaan_whatsapp/widgets/web_message_input_bar.dart';
 import 'package:rivaan_whatsapp/widgets/web_chat_appbar.dart';
 import 'package:rivaan_whatsapp/widgets/web_profile_bar.dart';
-import 'package:rivaan_whatsapp/widgets/web_search_%20bar.dart';
+import 'package:rivaan_whatsapp/widgets/web_search_bar.dart';
 
 class WebScreenLayout extends StatelessWidget {
   const WebScreenLayout({Key? key}) : super(key: key);
