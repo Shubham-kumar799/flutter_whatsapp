@@ -70,6 +70,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '394353534306',
     projectId: 'shubhamdemy-native',
     storageBucket: 'shubhamdemy-native.appspot.com',
+    androidClientId: '394353534306-964fbh9gacfqnse5e5de11mfaut6gffe.apps.googleusercontent.com',
     iosClientId: '394353534306-vsdjf66cprijakucfr9iadj7qp5bc8nf.apps.googleusercontent.com',
     iosBundleId: 'com.example.rivaanWhatsapp',
   );

@@ -50,6 +50,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "394353534306-964fbh9gacfqnse5e5de11mfaut6gffe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rivaan_whatsapp",
+            "certificate_hash": "21dc3a9822ab74951ca37e7ed14806ff38eb4c38"
+          }
+        },
+        {
           "client_id": "394353534306-trl827jh4grugppa464eovhostt4cheq.apps.googleusercontent.com",
           "client_type": 3
         }

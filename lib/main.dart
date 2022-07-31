@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:rivaan_whatsapp/colors.dart';
 import 'package:rivaan_whatsapp/features/landing/screens/landing_screen.dart';
 import 'package:rivaan_whatsapp/router.dart';
@@ -9,13 +10,17 @@ import 'package:rivaan_whatsapp/firebase_options.dart';
 // import 'package:rivaan_whatsapp/screens/web_screen_layout.dart';
 
 //firebase console project => shubhamDemy-native
-//59:53
+//1:32:34
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  runApp(const MyApp());
+  runApp(
+    const ProviderScope(
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
