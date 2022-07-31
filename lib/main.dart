@@ -1,13 +1,15 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:rivaan_whatsapp/colors.dart';
+import 'package:rivaan_whatsapp/features/landing/screens/landing_screen.dart';
+import 'package:rivaan_whatsapp/router.dart';
 import 'package:rivaan_whatsapp/firebase_options.dart';
-import 'package:rivaan_whatsapp/responsive/responsive_layout.dart';
-import 'package:rivaan_whatsapp/screens/mobile_screen_layout.dart';
-import 'package:rivaan_whatsapp/screens/web_screen_layout.dart';
+// import 'package:rivaan_whatsapp/responsive/responsive_layout.dart';
+// import 'package:rivaan_whatsapp/screens/mobile_screen_layout.dart';
+// import 'package:rivaan_whatsapp/screens/web_screen_layout.dart';
 
 //firebase console project => shubhamDemy-native
-//35:30
+//59:53
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -27,11 +29,16 @@ class MyApp extends StatelessWidget {
       title: 'WhatsApp',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
+        appBarTheme: const AppBarTheme(
+          color: appBarColor,
+        ),
       ),
-      home: const ResponsiveLayout(
-        mobileScreenLayout: MobileScreenLayout(),
-        webScreenLayout: WebScreenLayout(),
-      ),
+      onGenerateRoute: (settings) => generateRoute(settings),
+      home: const LandingScreen(),
+      // home: const ResponsiveLayout(
+      //   mobileScreenLayout: MobileScreenLayout(),
+      //   webScreenLayout: WebScreenLayout(),
+      // ),
     );
   }
 }
