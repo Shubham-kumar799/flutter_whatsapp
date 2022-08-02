@@ -10,7 +10,7 @@ import 'package:rivaan_whatsapp/firebase_options.dart';
 // import 'package:rivaan_whatsapp/screens/web_screen_layout.dart';
 
 //firebase console project => shubhamDemy-native
-//1:32:34
+//1:55:34
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(

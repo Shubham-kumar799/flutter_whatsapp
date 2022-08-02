@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:rivaan_whatsapp/colors.dart';
+import 'package:rivaan_whatsapp/common/utils/utils.dart';
 import 'package:rivaan_whatsapp/common/widgets/custom_button.dart';
 import 'package:country_picker/country_picker.dart';
 import 'package:rivaan_whatsapp/features/auth/controller/auth_controller.dart';
@@ -42,6 +43,8 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
       ref
           .read(authControllerProvider)
           .signInWithPhone(context, '+${country!.phoneCode}$phoneNumber');
+    } else {
+      showSnackBar(context: context, content: "Fill out all the fields");
     }
   }
 
@@ -105,7 +108,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
               width: 90,
               child: CustomButton(
                 text: 'NEXT',
-                onPressed: () {},
+                onPressed: sendPhoneNumber,
               ),
             ),
           ],

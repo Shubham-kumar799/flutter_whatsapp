@@ -31,11 +31,10 @@ class LandingScreen extends StatelessWidget {
             SizedBox(
               height: size.height / 9,
             ),
-            Image.network(
-              'https://raw.githubusercontent.com/RivaanRanawat/flutter-whatsapp-clone/master/assets/bg.png',
+            Image.asset(
+              'assets/sign_up.png',
               height: 340,
               width: 340,
-              color: tabColor,
             ),
             SizedBox(
               height: size.height / 9,
